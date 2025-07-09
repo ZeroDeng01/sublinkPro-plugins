@@ -72,8 +72,6 @@ func (m *Manager) LoadPlugins() error {
 // loadPlugin 加载单个插件
 func (m *Manager) loadPlugin(pluginPath string) error {
 
-	fmt.Printf("尝试加载插件: %s\n", pluginPath)
-	fmt.Printf("当前Go版本: %s\n", runtime.Version())
 
 	p, err := plugin.Open(pluginPath)
 	if err != nil {
