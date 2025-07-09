@@ -7,7 +7,6 @@ import (
 	"os"
 	"path/filepath"
 	"plugin"
-	"runtime"
 	"strings"
 	"sync"
 
