@@ -1,4 +1,4 @@
-module github.com/eun1e/sublinkE-plugins
+module github.com/ZeroDeng01/sublinkPro-plugins
 
 go 1.24.3
 
